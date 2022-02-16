@@ -4,7 +4,7 @@ import (
 	"github.com/prometheus/common/version"
 	"github.com/prometheus/common/promlog"
 	"github.com/prometheus/client_golang/prometheus/promhttp"
-	"test/collector"
+	"github.com/weifeng1990/prometheus_exporter_demo/collector"
 	"os"
 	"net/http"
 	"github.com/prometheus/exporter-toolkit/web"
