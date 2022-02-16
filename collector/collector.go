@@ -18,7 +18,7 @@ func Init() *collector{
 }
 
 func (c collector) Describe(ch chan<- *prometheus.Desc) {
-	ch <- prometheus.NewDesc("test", "test", nil, nil)
+	ch <- c.g
 }
 
 func (c collector) Collect(ch chan<- prometheus.Metric){
